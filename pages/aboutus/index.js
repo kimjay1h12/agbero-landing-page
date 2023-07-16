@@ -1,7 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
-import MainLayout from "../../layouts/MainLayout";
+import MainLayout from "../../layouts/Mainlayouts";
 import SectionLeftRightCard from "../../components/Section/SectionCard";
 import About from "../../components/Section/About";
 import Counts from "../../components/Section/Counts";

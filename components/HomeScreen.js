@@ -2,7 +2,7 @@ import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import { Button, Dialog, DialogContent, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React, { useState } from "react";
-import MainLayout from "../layouts/MainLayout";
+import MainLayout from "../layouts/Mainlayouts";
 import Animator from "./Animator";
 import About from "./Section/About";
 import Comments from "./Section/Comments";

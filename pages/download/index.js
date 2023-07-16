@@ -1,7 +1,7 @@
 import { Button, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
-import MainLayout from "../../layouts/MainLayout";
+import MainLayout from "../../layouts/Mainlayouts";
 import Animator from "../../components/Animator";
 import Download from "../../components/Section/Download";
 import GetStarted from "../../components/Section/GetStarted";

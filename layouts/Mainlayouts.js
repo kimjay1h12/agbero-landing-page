@@ -36,8 +36,8 @@ function MainLayout({
   return (
     <>
       <Head>
-        <title>{title || "Ndali Customer"}</title>
-        <meta property="og:title" content={title || "Home | Ndali Customer"} />
+        <title>{title || "agbero"}</title>
+        <meta property="og:title" content={title || "Home | agbero"} />
         <meta property="og:image" content={image || "/img/favicon.png"} />
         <meta name="theme-color" content="#000" />
         <link rel="shortcut icon" href="/img/favicon.png" />

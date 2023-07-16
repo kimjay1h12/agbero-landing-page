@@ -7,7 +7,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import CheckBoxIcon from "@mui/icons-material/CheckBox";
-import MainLayout from "../../layouts/MainLayout";
+import MainLayout from "../../layouts/Mainlayouts";
 import SectionLeftRightCard from "../../components/Section/SectionCard";
 import Download from "../../components/Section/Download";
 
