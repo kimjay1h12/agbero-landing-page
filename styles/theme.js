@@ -19,7 +19,6 @@ const theme = createTheme({
         fontWeight: 700,
       },
     },
-
     MuiButton: {
       defaultProps: {
         disableElevation: true,
@@ -27,8 +26,7 @@ const theme = createTheme({
       styleOverrides: {
         contained: {
           textTransform: "capitalize",
-          borderRadius: 4,
-          background: "#8F32AB",
+          borderRadius: 10,
         },
         text: {
           textTransform: "capitalize",
@@ -46,10 +44,6 @@ const theme = createTheme({
 
     secondary: {
       main: "#8F32AB1A",
-      contrastText: "#fff",
-    },
-    info: {
-      main: "#000",
       contrastText: "#fff",
     },
   },

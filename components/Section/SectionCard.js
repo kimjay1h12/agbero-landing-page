@@ -21,7 +21,6 @@ const SectionLeftRightCard = ({ text, imageUrl, isLeft, imgheight }) => {
       },
     },
     text: {
-      flex: "1 1 100%",
       padding: "20px",
 
       ["@media (min-width : 1200px)"]: {
@@ -29,7 +28,6 @@ const SectionLeftRightCard = ({ text, imageUrl, isLeft, imgheight }) => {
       },
     },
     image: {
-      flex: "1 1 100%",
       maxWidth: "100%",
       objectFit: "contain",
       height: imgheight ? imgheight : "300px",

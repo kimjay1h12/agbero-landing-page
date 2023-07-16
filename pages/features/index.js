@@ -15,6 +15,7 @@ const useStyles = makeStyles({
     },
   },
   root: {
+    color: "#000",
     "& header": {
       minHeight: "100vh",
 
@@ -26,9 +27,6 @@ const useStyles = makeStyles({
       justifyContent: "space-between",
       alignItems: "center",
 
-      ["@media (min-width : 1200px)"]: {
-        marginTop: "-6%",
-      },
       "& .left": {
         width: "100%",
         padding: "0px 6vw",
@@ -55,7 +53,7 @@ const useStyles = makeStyles({
 function Page() {
   const classes = useStyles();
   return (
-    <MainLayout route="features">
+    <MainLayout route="feature">
       <div className={classes.root}>
         <header>
           <Animator direction="right" variant="slide" timeout={500} delay={500}>
@@ -159,7 +157,6 @@ function Page() {
           <SectionLeftRightCard
             isLeft
             imageUrl="/features/1.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -179,7 +176,6 @@ function Page() {
           />
           <SectionLeftRightCard
             imageUrl="/features/2.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -200,7 +196,6 @@ function Page() {
           <SectionLeftRightCard
             isLeft
             imageUrl="/features/3.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -220,7 +215,6 @@ function Page() {
           />
           <SectionLeftRightCard
             imageUrl="/features/4.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -241,7 +235,6 @@ function Page() {
           <SectionLeftRightCard
             isLeft
             imageUrl="/features/5.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -261,7 +254,6 @@ function Page() {
           />
           <SectionLeftRightCard
             imageUrl="/features/6.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -296,7 +288,6 @@ function Page() {
           <SectionLeftRightCard
             isLeft
             imageUrl="/features/1.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -316,7 +307,6 @@ function Page() {
           />
           <SectionLeftRightCard
             imageUrl="/features/2.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -337,7 +327,6 @@ function Page() {
           <SectionLeftRightCard
             isLeft
             imageUrl="/features/3.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -357,7 +346,6 @@ function Page() {
           />
           <SectionLeftRightCard
             imageUrl="/features/4.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -378,7 +366,6 @@ function Page() {
           <SectionLeftRightCard
             isLeft
             imageUrl="/features/5.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -398,7 +385,6 @@ function Page() {
           />
           <SectionLeftRightCard
             imageUrl="/features/6.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -419,7 +405,6 @@ function Page() {
           <SectionLeftRightCard
             isLeft
             imageUrl="/features/6.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>
@@ -439,7 +424,6 @@ function Page() {
           />
           <SectionLeftRightCard
             imageUrl="/features/6.png"
-            imgheight="100%"
             text={
               <div>
                 <Typography variant="h4" fontWeight={600}>

@@ -136,6 +136,7 @@ function Footer() {
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "center",
+                    alignItems: "flex-start",
                     gap: 10,
                   }}
                 >

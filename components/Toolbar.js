@@ -140,7 +140,7 @@ function AppToolbar({ route, children, background }) {
     {
       href: "/features",
 
-      active: route === "store",
+      active: route === "feature",
       label: "Features",
     },
     {

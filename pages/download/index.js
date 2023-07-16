@@ -14,6 +14,7 @@ const useStyles = makeStyles({
     },
   },
   root: {
+    color:"#000",
     "& header": {
       minHeight: "100vh",
 
@@ -26,9 +27,7 @@ const useStyles = makeStyles({
       alignItems: "center",
 
       color: "#fff",
-      ["@media (min-width : 1200px)"]: {
-        marginTop: "-6%",
-      },
+
       "& .left": {
         width: "100%",
         padding: "0px 6vw",

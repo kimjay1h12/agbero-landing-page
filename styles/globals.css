@@ -43,25 +43,6 @@ h1 {
   width: 5px;
 }
 
-.a :hover {
-  color: blue;
-}
-
-.inhale {
-  /* Define styles for the inhale animation */
-  transform: scale(1.06);
-  /* Increase the scale for inhale */
-  transition: transform 1.5s ease-in-out;
-  /* Add a smooth transition */
-}
-
-.exhale {
-  /* Define styles for the exhale animation */
-  transform: scale(1);
-  /* Return to the original scale for exhale */
-  transition: transform 1.5s ease-in-out;
-  /* Add a smooth transition */
-}
 
 
 

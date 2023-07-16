@@ -9,9 +9,10 @@ import Download from "../../components/Section/Download";
 
 const useStyles = makeStyles({
   root: {
+    color: "#000",
     "& header": {
       minHeight: "90vh",
-      marginTop: 30,
+
       background: `#272937`,
       backgroundSize: "cover",
       backgroundPosition: "center",
